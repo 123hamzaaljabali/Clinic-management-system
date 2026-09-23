@@ -1,0 +1,212 @@
+/* =========================
+   PATIENTS PAGE
+========================= */
+
+.patients-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 25px;
+}
+
+.patients-title {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.patient-form {
+  display: flex;
+  align-items: end;
+  gap: 15px;
+  flex-wrap: wrap;
+
+  background-color: white;
+
+  padding: 25px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+  margin-bottom: 30px;
+}
+
+.patient-form label {
+  font-size: 14px;
+
+  font-weight: bold;
+
+  display: block;
+
+  margin-bottom: 6px;
+}
+
+.patient-input {
+  height: 40px;
+
+  padding: 8px 10px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 6px;
+
+  outline: none;
+}
+
+.patient-input:focus {
+  border-color: #2563eb;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.patient-btn {
+  height: 40px;
+
+  padding: 0 18px;
+
+  border: none;
+
+  border-radius: 6px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.patient-create {
+  background-color: #2563eb;
+  color: white;
+}
+
+.patient-create:hover {
+  background-color: #1d4ed8;
+}
+
+.patient-update {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.patient-update:hover {
+  background-color: #d97706;
+}
+
+.patient-update:disabled {
+  background-color: #d1d5db;
+  cursor: not-allowed;
+}
+
+
+/* =========================
+   PATIENT TABLE
+========================= */
+
+.patients-table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  background-color: white;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.patients-table th {
+  background-color: #1e3a5f;
+
+  color: white;
+
+  padding: 15px;
+
+  text-align: left;
+}
+
+.patients-table td {
+  padding: 13px 15px;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.patients-table tbody tr:hover {
+  background-color: #f8fafc;
+}
+
+
+/* =========================
+   PATIENT PHOTO
+========================= */
+
+.patient-photo {
+  width: 45px;
+
+  height: 45px;
+
+  object-fit: cover;
+
+  border-radius: 50%;
+
+  border: 2px solid #e5e7eb;
+}
+
+
+/* =========================
+   TABLE BUTTONS
+========================= */
+
+.patient-edit {
+  background-color: #10b981;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 5px;
+
+  padding: 7px 12px;
+
+  cursor: pointer;
+
+  margin-right: 6px;
+}
+
+.patient-delete {
+  background-color: #ef4444;
+
+  color: white;
+
+  border: none;
+
+  border-radius: 5px;
+
+  padding: 7px 12px;
+
+  cursor: pointer;
+}
+.patient-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.patient-create-update {
+  display: flex;
+  gap: 10px;
+}
+
+.patient-home {
+  padding: 10px 25px;
+  cursor: pointer;
+}

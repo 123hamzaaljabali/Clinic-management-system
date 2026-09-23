@@ -1,0 +1,190 @@
+/* =========================
+   DOCTORS PAGE
+========================= */
+
+.doctors-page {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 25px;
+}
+
+.doctors-title {
+  font-size: 32px;
+  margin-bottom: 25px;
+}
+
+
+/* =========================
+   FORM
+========================= */
+
+.doctor-form {
+  display: flex;
+  align-items: end;
+  gap: 15px;
+  flex-wrap: wrap;
+
+  background: white;
+
+  padding: 25px;
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+
+  margin-bottom: 30px;
+}
+
+.doctor-form label {
+  font-weight: bold;
+  font-size: 14px;
+
+  display: block;
+
+  margin-bottom: 6px;
+}
+
+.doctor-input {
+  height: 40px;
+
+  padding: 8px 10px;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 6px;
+
+  outline: none;
+}
+
+.doctor-input:focus {
+  border-color: #2563eb;
+}
+
+
+/* =========================
+   BUTTONS
+========================= */
+
+.doctor-btn {
+  height: 40px;
+
+  padding: 0 18px;
+
+  border: none;
+
+  border-radius: 6px;
+
+  font-weight: bold;
+
+  cursor: pointer;
+}
+
+.doctor-create {
+  background-color: #2563eb;
+  color: white;
+}
+
+.doctor-create:hover {
+  background-color: #1d4ed8;
+}
+
+.doctor-update {
+  background-color: #f59e0b;
+  color: white;
+}
+
+.doctor-update:hover {
+  background-color: #d97706;
+}
+
+.doctor-update:disabled {
+  background-color: #d1d5db;
+  cursor: not-allowed;
+}
+
+
+/* =========================
+   TABLE
+========================= */
+
+.doctors-table {
+  width: 100%;
+
+  border-collapse: collapse;
+
+  background-color: white;
+
+  border-radius: 10px;
+
+  overflow: hidden;
+
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+.doctors-table th {
+  background-color: #1e3a5f;
+
+  color: white;
+
+  padding: 15px;
+
+  text-align: left;
+}
+
+.doctors-table td {
+  padding: 13px 15px;
+
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.doctors-table tr:hover {
+  background-color: #f8fafc;
+}
+
+
+/* =========================
+   TABLE BUTTONS
+========================= */
+
+.doctor-edit {
+  background-color: #10b981;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+
+  padding: 7px 12px;
+
+  cursor: pointer;
+
+  margin-right: 6px;
+}
+
+.doctor-delete {
+  background-color: #ef4444;
+  color: white;
+
+  border: none;
+  border-radius: 5px;
+
+  padding: 7px 12px;
+
+  cursor: pointer;
+}
+.doctor-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.doctor-create-update {
+  display: flex;
+  gap: 10px;
+}
+
+.doctor-home {
+  padding: 10px 25px;
+  cursor: pointer;
+}
